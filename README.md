@@ -37,23 +37,19 @@ project-root/
 ## 🧪 How to Run
 
 ### 📦 1. Install Dependencies
-```
 pip install -r requirements.txt
-⚙️ 2. Set Up Environment Variables
+### ⚙️ 2. Set Up Environment Variables
 Create a .env file in the root:
 USERNAME=your_username
 PASSWORD=your_password
 APP_URL=https://example.com
 USE_ENV=True
-▶️ 3. Run Tests
+### ▶️ 3. Run Tests
 behave
-📊 4. Generate Allure Report
+### 📊 4. Generate Allure Report
 allure serve reports/allure-results
-
-🔐 Environment Management
+### 🔐 Environment Management
 The USE_ENV flag in .env controls whether credentials are taken from .env or from the .feature file.
 All sensitive data should be stored in .env.
-
-
-📷 Screenshots on Failure
+### 📷 Screenshots on Failure
 Screenshots are captured on test failures and stored in reports/. They are automatically attached to Allure reports.

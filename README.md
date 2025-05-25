@@ -42,7 +42,7 @@ pip install -r requirements.txt
 Create a .env file in the root:
 USERNAME=your_username
 PASSWORD=your_password
-APP_URL=https://example.com
+APP_URL=https://demowebshop.tricentis.com
 USE_ENV=True
 ### ▶️ 3. Run Tests
 behave

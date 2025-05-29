@@ -46,6 +46,7 @@ APP_URL=https://demowebshop.tricentis.com
 USE_ENV=True
 ### ▶️ 3. Run Tests
 behave
+behave -D keep_browser=True -f allure_behave.formatter:AllureFormatter -o reports/allure-results
 ### 📊 4. Generate Allure Report
 allure serve reports/allure-results
 ### 🔐 Environment Management
